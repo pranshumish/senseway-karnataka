@@ -28,6 +28,7 @@ class VoiceAssistantService : Service(), RecognitionListener, TextToSpeech.OnIni
     // Managers
     private lateinit var dangerManager: DangerZoneManager
     private lateinit var emergencyDispatcher: EmergencyDispatcher
+    private lateinit var fallDetector: FallDetector
 
     override fun onCreate() {
         super.onCreate()
@@ -40,7 +41,18 @@ class VoiceAssistantService : Service(), RecognitionListener, TextToSpeech.OnIni
         dangerManager = DangerZoneManager(this) { warningMessage ->
             speak(warningMessage)
         }
-        dangerManager.startTracking()
+        
+        // Fall Detector
+        fallDetector = FallDetector(this) {
+             speak("Fall detected! Are you okay? Say I am okay or emergency will be triggered.")
+        }
+        
+        try {
+            dangerManager.startTracking()
+            fallDetector.start()
+        } catch (e: Exception) {
+            Log.e("SenseWay", "Error starting sensors: ${e.message}")
+        }
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
@@ -84,6 +96,8 @@ class VoiceAssistantService : Service(), RecognitionListener, TextToSpeech.OnIni
             startListening()
         } else {
             Log.e("SenseWay", "TTS Initialization failed")
+            // Fallback: try to listen anyway
+            startListening()
         }
     }
 
@@ -94,11 +108,15 @@ class VoiceAssistantService : Service(), RecognitionListener, TextToSpeech.OnIni
     private fun startListening() {
         if (isListening) return
         
+        // Safety Check for permissions
+        if (androidx.core.content.ContextCompat.checkSelfPermission(this, android.Manifest.permission.RECORD_AUDIO) != android.content.pm.PackageManager.PERMISSION_GRANTED) {
+            Log.e("SenseWay", "Microphone permission is missing!")
+            return
+        }
+        
         val intent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH).apply {
             putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM)
             putExtra(RecognizerIntent.EXTRA_LANGUAGE, "en-IN") 
-            // Note: Keep English as primary for now, multi-lingual requires more logic or switching
-            // putExtra(RecognizerIntent.EXTRA_SUPPORTED_LANGUAGES, arrayListOf("en-IN", "kn-IN"))
             putExtra(RecognizerIntent.EXTRA_MAX_RESULTS, 1)
         }
         
@@ -152,24 +170,6 @@ class VoiceAssistantService : Service(), RecognitionListener, TextToSpeech.OnIni
     override fun onPartialResults(partialResults: Bundle?) {}
     override fun onEvent(eventType: Int, params: Bundle?) {}
 
-    // Managers
-    private lateinit var dangerManager: DangerZoneManager
-    private lateinit var emergencyDispatcher: EmergencyDispatcher
-
-    override fun onCreate() {
-        super.onCreate()
-        tts = TextToSpeech(this, this)
-        speechRecognizer = SpeechRecognizer.createSpeechRecognizer(this)
-        speechRecognizer?.setRecognitionListener(this)
-        
-        // Initialize Helpers
-        emergencyDispatcher = EmergencyDispatcher(this)
-        dangerManager = DangerZoneManager(this) { warningMessage ->
-            speak(warningMessage)
-        }
-        dangerManager.startTracking()
-    }
-
     private fun handleCommand(text: String) {
         val action = commandRouter.processCommand(text)
         when (action) {
@@ -192,7 +192,11 @@ class VoiceAssistantService : Service(), RecognitionListener, TextToSpeech.OnIni
                 // and pass it to ObjectRecognizer. For now, we launch system camera as a fallback.
                 val intent = Intent("android.media.action.IMAGE_CAPTURE")
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-                startActivity(intent)
+                try {
+                     startActivity(intent)
+                } catch (e: Exception) {
+                     speak("Camera not found or not allowed in background.")
+                }
             }
             CommandRouter.Action.STOP_ALARM -> speak("Alarm stopped")
             CommandRouter.Action.I_AM_OKAY -> speak("Okay, emergency cancelled")
@@ -218,4 +222,3 @@ class VoiceAssistantService : Service(), RecognitionListener, TextToSpeech.OnIni
         if (::fallDetector.isInitialized) fallDetector.stop()
     }
 }
-```
