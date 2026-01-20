@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/pranshumishra/.gradle/daemon/8.5/com.senseway.karnataka.app-mergeDebugResources-39:/layout/activity_main.xml",
+        "source": "/Users/pranshumishra/.gradle/daemon/8.5/com.senseway.karnataka.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.senseway.karnataka.app-mergeDebugResources-39:/layout/activity_emergency_contact.xml",
+        "source": "com.senseway.karnataka.app-main-42:/layout/activity_emergency_contact.xml"
+    },
+    {
+        "merged": "/Users/pranshumishra/.gradle/daemon/8.5/com.senseway.karnataka.app-mergeDebugResources-39:/layout/activity_emergency_contact.xml",
+        "source": "/Users/pranshumishra/.gradle/daemon/8.5/com.senseway.karnataka.app-main-42:/layout/activity_emergency_contact.xml"
+    },
+    {
+        "merged": "/Users/pranshumishra/.gradle/daemon/8.5/com.senseway.karnataka.app-mergeDebugResources-39:/layout/activity_money_identifier.xml",
+        "source": "/Users/pranshumishra/.gradle/daemon/8.5/com.senseway.karnataka.app-main-42:/layout/activity_money_identifier.xml"
+    },
+    {
+        "merged": "/Users/pranshumishra/.gradle/daemon/8.5/com.senseway.karnataka.app-mergeDebugResources-39:/layout/activity_add_zone.xml",
+        "source": "/Users/pranshumishra/.gradle/daemon/8.5/com.senseway.karnataka.app-main-42:/layout/activity_add_zone.xml"
+    },
+    {
+        "merged": "/Users/pranshumishra/.gradle/daemon/8.5/com.senseway.karnataka.app-mergeDebugResources-39:/layout/activity_text_reader.xml",
+        "source": "/Users/pranshumishra/.gradle/daemon/8.5/com.senseway.karnataka.app-main-42:/layout/activity_text_reader.xml"
+    },
+    {
+        "merged": "/Users/pranshumishra/.gradle/daemon/8.5/com.senseway.karnataka.app-mergeDebugResources-39:/layout/activity_scene_description.xml",
+        "source": "/Users/pranshumishra/.gradle/daemon/8.5/com.senseway.karnataka.app-main-42:/layout/activity_scene_description.xml"
+    }
+]

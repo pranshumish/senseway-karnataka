@@ -1,0 +1,731 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:2:1-88:12
+INJECTED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:2:1-88:12
+INJECTED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:2:1-88:12
+INJECTED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:2:1-88:12
+MERGED from [androidx.databinding:viewbinding:8.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/c5102df2ed84b264cb61dc156b99b59f/transformed/jetified-viewbinding-8.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/7ed15ff9a9efb04ea10cc3a856ae46b3/transformed/material-1.10.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/pranshumishra/.gradle/caches/transforms-3/d14855892462b8cc158125166586e2f9/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.camera:camera-video:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/34c872032025888455d21bb7c04cee1d/transformed/jetified-camera-video-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-lifecycle:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0e7ea674e516f93c6a56dab7c00ba24c/transformed/jetified-camera-lifecycle-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-camera2:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/eaf7dd093075f73154108ac489587906/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-core:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/69891c6687e5db82b1f0a149e9e77cd1/transformed/jetified-camera-core-1.3.0/AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-view:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/9edb67d09f41cf406c1a03fa86508238/transformed/jetified-camera-view-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/pranshumishra/.gradle/caches/transforms-3/6c171733a382c520b8256ecb3ed8ff3b/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.mlkit:object-detection:17.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/c6a5be78e65a8ed5311e907849e3ade3/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.mlkit:image-labeling:17.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/96cb25264e99c85ef809644113bb9c4a/transformed/jetified-image-labeling-17.0.0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:text-recognition:16.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/43585d6bcb5dec18bdfc91965f01bca4/transformed/jetified-text-recognition-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:object-detection-common:18.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/34be124b2313b643679a44b0b0afce78/transformed/jetified-object-detection-common-18.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/pranshumishra/.gradle/caches/transforms-3/13421a47e51eee4335d58726be5f0a97/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.mlkit:image-labeling-default-common:16.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/3a33c77443191221c5f173dd73de3499/transformed/jetified-image-labeling-default-common-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:image-labeling-common:16.2.1] /Users/pranshumishra/.gradle/caches/transforms-3/cc5733fe870dc273c81149788035cf90/transformed/jetified-image-labeling-common-16.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:text-recognition-bundled-common:16.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/411df56e51ad31a476c799c5f789abc9/transformed/jetified-text-recognition-bundled-common-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:19.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/1d94213cde3e71bbb1e3424fadb00ab8/transformed/jetified-play-services-mlkit-text-recognition-19.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/817f14d529be4b6e670387be889d3184/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/98be7da733159fb8b93bad145ea6080c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/pranshumishra/.gradle/caches/transforms-3/f8bcd69635dbc29112e7afc1f20e3672/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.ai.client.generativeai:generativeai:0.9.0] /Users/pranshumishra/.gradle/caches/transforms-3/1f26bee8afd29ea079a20fd68e94d319/transformed/jetified-generativeai-0.9.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/04ba609194dbd3ecd75e8f52a1cc037a/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/235ca6a87db3b3b07e3fcbc7fb279387/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/59dbed84b7a1db45450c41b8f4f777ad/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/44a9f7a7bf1846c0d617bd7c0643cd25/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/451c3f8628937c04c04b37c959c4052e/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/8ca2eb5b2b06356bbb1db143a53111bf/transformed/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/1ab36e18362a6e6c6919c3cabcf2b5e0/transformed/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/cdeda6658dbf5b9d2f989936bb1f8078/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/d52462829fe7aec96ebad04c7dc82723/transformed/jetified-vision-interfaces-16.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/pranshumishra/.gradle/caches/transforms-3/db3c88879ba43a54a61b2debb5024117/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/fdad2b18169e9885b972268c35143281/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/pranshumishra/.gradle/caches/transforms-3/f554f6c0eae4bb9124b8e1c7eb764a8a/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] /Users/pranshumishra/.gradle/caches/transforms-3/1be193349fc96a3fe4c314002b632f93/transformed/jetified-activity-1.8.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/pranshumishra/.gradle/caches/transforms-3/3eaa36594c195f01eb42ffd6c2c7f783/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/f19a70ceb5bd29fde57cc9a9808453bf/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/2182440ea9bfcd5d4163085a95a580f0/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/f049cb2ba9e96d374cfbf75625fded8d/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/37ef08db2fe5f115d56ff099ec06f1e3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/a86bfb711a54dfbe815954fcc96cbf0a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/6bda6ca7567426896b5ddc76f6c2c481/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/34c52f099303e8374165098ec5d3e888/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/72cc7baca60d5373ccf5bff643e0a6f6/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/6e334e07fcf368904daabc23cceb5eae/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/94971674fb8313f2bba467de6f3a0056/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.12.0] /Users/pranshumishra/.gradle/caches/transforms-3/5c8e145eda2e84e839db6f33448eb220/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.ai.client.generativeai:common:0.8.0] /Users/pranshumishra/.gradle/caches/transforms-3/07daffc34e93ad13610af2e080d108cf/transformed/jetified-common-0.8.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/df451f32da817d03884edfa0ae385555/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/f10082c00f401c4c519a7efd72c51264/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/168c455dd25cbe70e89c3e56ff41d075/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/pranshumishra/.gradle/caches/transforms-3/e510fc381b7d015118e1244126eb0e36/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/37b437aa98ab3da0893039f5d1c5e64a/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/b0072b0bf887b479a86d7809f427a594/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/600279b00d24c074173bacecaf323d94/transformed/jetified-lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/d0485fcb406e7699b4d94788ab1317a3/transformed/jetified-lifecycle-service-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/d9ad6e68e9626c0a466cd1baec32553f/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/pranshumishra/.gradle/caches/transforms-3/e91140aafe3103f07c0a3146ae5baa76/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] /Users/pranshumishra/.gradle/caches/transforms-3/deb590af25d9a87fd2890227e97ce624/transformed/jetified-annotation-experimental-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/3b04bb0dd02816148d127269a0c49411/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/366d332781c1e2d22522184a08ecec24/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pranshumishra/.gradle/caches/transforms-3/28ee25b590aaf466f604cbac7cd145d3/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/pranshumishra/.gradle/caches/transforms-3/739eee708b4436c25655c03f9d369ea1/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/pranshumishra/.gradle/caches/transforms-3/2bd9b1a072bf836d622a4a83a37db910/transformed/jetified-transport-api-2.2.1/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/5186a952b7dda4a647952c2821e4f9b8/transformed/jetified-firebase-components-16.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/da7a37ec37c8d760d84e0f25e85f5736/transformed/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/pranshumishra/.gradle/caches/transforms-3/05b902d57c1dec2f376278a8710d8f97/transformed/exifinterface-1.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/8a4152e86e663211b4ffdaba7976bffb/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/pranshumishra/.gradle/caches/transforms-3/f7e0361a7ed25fe9a5a8b6503b53ea2f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/pranshumishra/.gradle/caches/transforms-3/b96ec1dc91813c48fe925aee0c02ad79/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/66e3c4f4a8c3dd7658ac6f73a1eca4b2/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/d4d6d5b9bbf6f8acab3e856d7f4ab4ea/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/295efb33c8771a706e9b9509279b53be/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/49402a2beed8c684965eafd10e02a774/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/ba7d0f75be54b5d788a0bd6dd852b692/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/pranshumishra/.gradle/caches/transforms-3/76dadc40628b7f22d8534c062fc87e2a/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:2:1-9:12
+	package
+		INJECTED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.google.mlkit:object-detection:17.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/c6a5be78e65a8ed5311e907849e3ade3/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:object-detection:17.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/c6a5be78e65a8ed5311e907849e3ade3/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/pranshumishra/.gradle/caches/transforms-3/13421a47e51eee4335d58726be5f0a97/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/pranshumishra/.gradle/caches/transforms-3/13421a47e51eee4335d58726be5f0a97/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:8:5-67
+MERGED from [com.google.ai.client.generativeai:generativeai:0.9.0] /Users/pranshumishra/.gradle/caches/transforms-3/1f26bee8afd29ea079a20fd68e94d319/transformed/jetified-generativeai-0.9.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.ai.client.generativeai:generativeai:0.9.0] /Users/pranshumishra/.gradle/caches/transforms-3/1f26bee8afd29ea079a20fd68e94d319/transformed/jetified-generativeai-0.9.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.ai.client.generativeai:common:0.8.0] /Users/pranshumishra/.gradle/caches/transforms-3/07daffc34e93ad13610af2e080d108cf/transformed/jetified-common-0.8.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.ai.client.generativeai:common:0.8.0] /Users/pranshumishra/.gradle/caches/transforms-3/07daffc34e93ad13610af2e080d108cf/transformed/jetified-common-0.8.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pranshumishra/.gradle/caches/transforms-3/28ee25b590aaf466f604cbac7cd145d3/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pranshumishra/.gradle/caches/transforms-3/28ee25b590aaf466f604cbac7cd145d3/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:7:22-68
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:10:5-85
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:10:22-82
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:11:5-77
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:11:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_MICROPHONE
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:12:5-88
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:12:22-85
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:13:22-74
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:14:5-66
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:14:22-63
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:15:5-69
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:15:22-66
+uses-permission#android.permission.SEND_SMS
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:16:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:17:5-65
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:17:22-62
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:19:22-65
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:20:22-78
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:21:5-78
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:21:22-75
+uses-feature#android.hardware.camera
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:23:5-85
+	android:required
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:23:58-82
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:23:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:24:5-95
+	android:required
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:24:68-92
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:24:19-67
+uses-feature#android.hardware.microphone
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:25:5-88
+	android:required
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:25:62-85
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:25:19-61
+queries
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:28:5-34:15
+package#com.google.android.apps.maps
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:29:9-64
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:29:18-61
+intent#action:name:android.intent.action.VIEW+data:scheme:google.navigation
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:30:9-33:18
+action#android.intent.action.VIEW
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:31:13-65
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:31:21-62
+data
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:32:13-56
+	android:scheme
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:32:19-53
+application
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:36:5-86:19
+INJECTED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:36:5-86:19
+MERGED from [com.google.android.material:material:1.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/7ed15ff9a9efb04ea10cc3a856ae46b3/transformed/material-1.10.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/7ed15ff9a9efb04ea10cc3a856ae46b3/transformed/material-1.10.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/pranshumishra/.gradle/caches/transforms-3/d14855892462b8cc158125166586e2f9/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/pranshumishra/.gradle/caches/transforms-3/d14855892462b8cc158125166586e2f9/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.camera:camera-camera2:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/eaf7dd093075f73154108ac489587906/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/eaf7dd093075f73154108ac489587906/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/69891c6687e5db82b1f0a149e9e77cd1/transformed/jetified-camera-core-1.3.0/AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/69891c6687e5db82b1f0a149e9e77cd1/transformed/jetified-camera-core-1.3.0/AndroidManifest.xml:23:5-34:19
+MERGED from [com.google.mlkit:object-detection:17.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/c6a5be78e65a8ed5311e907849e3ade3/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.mlkit:object-detection:17.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/c6a5be78e65a8ed5311e907849e3ade3/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.mlkit:image-labeling:17.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/96cb25264e99c85ef809644113bb9c4a/transformed/jetified-image-labeling-17.0.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling:17.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/96cb25264e99c85ef809644113bb9c4a/transformed/jetified-image-labeling-17.0.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/pranshumishra/.gradle/caches/transforms-3/13421a47e51eee4335d58726be5f0a97/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/pranshumishra/.gradle/caches/transforms-3/13421a47e51eee4335d58726be5f0a97/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/817f14d529be4b6e670387be889d3184/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/817f14d529be4b6e670387be889d3184/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/98be7da733159fb8b93bad145ea6080c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/98be7da733159fb8b93bad145ea6080c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:8:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/235ca6a87db3b3b07e3fcbc7fb279387/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/235ca6a87db3b3b07e3fcbc7fb279387/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/44a9f7a7bf1846c0d617bd7c0643cd25/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/44a9f7a7bf1846c0d617bd7c0643cd25/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/451c3f8628937c04c04b37c959c4052e/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/451c3f8628937c04c04b37c959c4052e/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/8ca2eb5b2b06356bbb1db143a53111bf/transformed/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/8ca2eb5b2b06356bbb1db143a53111bf/transformed/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/1ab36e18362a6e6c6919c3cabcf2b5e0/transformed/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/1ab36e18362a6e6c6919c3cabcf2b5e0/transformed/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/cdeda6658dbf5b9d2f989936bb1f8078/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/cdeda6658dbf5b9d2f989936bb1f8078/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/pranshumishra/.gradle/caches/transforms-3/db3c88879ba43a54a61b2debb5024117/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/pranshumishra/.gradle/caches/transforms-3/db3c88879ba43a54a61b2debb5024117/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/fdad2b18169e9885b972268c35143281/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/fdad2b18169e9885b972268c35143281/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.core:core:1.12.0] /Users/pranshumishra/.gradle/caches/transforms-3/5c8e145eda2e84e839db6f33448eb220/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /Users/pranshumishra/.gradle/caches/transforms-3/5c8e145eda2e84e839db6f33448eb220/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/f10082c00f401c4c519a7efd72c51264/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/f10082c00f401c4c519a7efd72c51264/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pranshumishra/.gradle/caches/transforms-3/28ee25b590aaf466f604cbac7cd145d3/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pranshumishra/.gradle/caches/transforms-3/28ee25b590aaf466f604cbac7cd145d3/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/pranshumishra/.gradle/caches/transforms-3/739eee708b4436c25655c03f9d369ea1/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/pranshumishra/.gradle/caches/transforms-3/739eee708b4436c25655c03f9d369ea1/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/pranshumishra/.gradle/caches/transforms-3/f7e0361a7ed25fe9a5a8b6503b53ea2f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/pranshumishra/.gradle/caches/transforms-3/f7e0361a7ed25fe9a5a8b6503b53ea2f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/pranshumishra/.gradle/caches/transforms-3/b96ec1dc91813c48fe925aee0c02ad79/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/pranshumishra/.gradle/caches/transforms-3/b96ec1dc91813c48fe925aee0c02ad79/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/pranshumishra/.gradle/caches/transforms-3/76dadc40628b7f22d8534c062fc87e2a/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/pranshumishra/.gradle/caches/transforms-3/76dadc40628b7f22d8534c062fc87e2a/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+	android:extractNativeLibs
+		INJECTED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /Users/pranshumishra/.gradle/caches/transforms-3/5c8e145eda2e84e839db6f33448eb220/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:41:9-35
+	android:label
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:39:9-41
+	android:roundIcon
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:40:9-54
+	tools:targetApi
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:43:9-29
+	android:icon
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:38:9-43
+	android:allowBackup
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:37:9-35
+	android:theme
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:42:9-46
+activity#com.senseway.karnataka.MainActivity
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:45:9-53:20
+	android:screenOrientation
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:48:13-49
+	android:exported
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:47:13-36
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:46:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:49:13-52:29
+action#android.intent.action.MAIN
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:50:17-69
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:50:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:51:17-77
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:51:27-74
+activity#com.senseway.karnataka.AddZoneActivity
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:55:9-58:52
+	android:screenOrientation
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:58:13-49
+	android:exported
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:57:13-37
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:56:13-44
+activity#com.senseway.karnataka.SceneDescriptionActivity
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:60:9-63:52
+	android:screenOrientation
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:63:13-49
+	android:exported
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:62:13-37
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:61:13-53
+activity#com.senseway.karnataka.MoneyIdentifierActivity
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:65:9-68:52
+	android:screenOrientation
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:68:13-49
+	android:exported
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:66:13-52
+activity#com.senseway.karnataka.EmergencyContactActivity
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:70:9-73:52
+	android:screenOrientation
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:73:13-49
+	android:exported
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:72:13-37
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:71:13-53
+activity#com.senseway.karnataka.TextReaderActivity
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:75:9-78:52
+	android:screenOrientation
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:78:13-49
+	android:exported
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:77:13-37
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:76:13-47
+service#com.senseway.karnataka.VoiceService
+ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:80:9-84:58
+	android:enabled
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:82:13-35
+	android:exported
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:83:13-37
+	android:foregroundServiceType
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:84:13-55
+	android:name
+		ADDED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:81:13-41
+uses-sdk
+INJECTED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml
+INJECTED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/c5102df2ed84b264cb61dc156b99b59f/transformed/jetified-viewbinding-8.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/c5102df2ed84b264cb61dc156b99b59f/transformed/jetified-viewbinding-8.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/7ed15ff9a9efb04ea10cc3a856ae46b3/transformed/material-1.10.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/7ed15ff9a9efb04ea10cc3a856ae46b3/transformed/material-1.10.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/pranshumishra/.gradle/caches/transforms-3/d14855892462b8cc158125166586e2f9/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/pranshumishra/.gradle/caches/transforms-3/d14855892462b8cc158125166586e2f9/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.camera:camera-video:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/34c872032025888455d21bb7c04cee1d/transformed/jetified-camera-video-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-video:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/34c872032025888455d21bb7c04cee1d/transformed/jetified-camera-video-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0e7ea674e516f93c6a56dab7c00ba24c/transformed/jetified-camera-lifecycle-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0e7ea674e516f93c6a56dab7c00ba24c/transformed/jetified-camera-lifecycle-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/eaf7dd093075f73154108ac489587906/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/eaf7dd093075f73154108ac489587906/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/69891c6687e5db82b1f0a149e9e77cd1/transformed/jetified-camera-core-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/69891c6687e5db82b1f0a149e9e77cd1/transformed/jetified-camera-core-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-view:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/9edb67d09f41cf406c1a03fa86508238/transformed/jetified-camera-view-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-view:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/9edb67d09f41cf406c1a03fa86508238/transformed/jetified-camera-view-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/pranshumishra/.gradle/caches/transforms-3/6c171733a382c520b8256ecb3ed8ff3b/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/pranshumishra/.gradle/caches/transforms-3/6c171733a382c520b8256ecb3ed8ff3b/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.mlkit:object-detection:17.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/c6a5be78e65a8ed5311e907849e3ade3/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection:17.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/c6a5be78e65a8ed5311e907849e3ade3/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling:17.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/96cb25264e99c85ef809644113bb9c4a/transformed/jetified-image-labeling-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling:17.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/96cb25264e99c85ef809644113bb9c4a/transformed/jetified-image-labeling-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition:16.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/43585d6bcb5dec18bdfc91965f01bca4/transformed/jetified-text-recognition-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition:16.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/43585d6bcb5dec18bdfc91965f01bca4/transformed/jetified-text-recognition-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-common:18.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/34be124b2313b643679a44b0b0afce78/transformed/jetified-object-detection-common-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-common:18.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/34be124b2313b643679a44b0b0afce78/transformed/jetified-object-detection-common-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/pranshumishra/.gradle/caches/transforms-3/13421a47e51eee4335d58726be5f0a97/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/pranshumishra/.gradle/caches/transforms-3/13421a47e51eee4335d58726be5f0a97/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-default-common:16.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/3a33c77443191221c5f173dd73de3499/transformed/jetified-image-labeling-default-common-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-default-common:16.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/3a33c77443191221c5f173dd73de3499/transformed/jetified-image-labeling-default-common-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-common:16.2.1] /Users/pranshumishra/.gradle/caches/transforms-3/cc5733fe870dc273c81149788035cf90/transformed/jetified-image-labeling-common-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-common:16.2.1] /Users/pranshumishra/.gradle/caches/transforms-3/cc5733fe870dc273c81149788035cf90/transformed/jetified-image-labeling-common-16.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-bundled-common:16.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/411df56e51ad31a476c799c5f789abc9/transformed/jetified-text-recognition-bundled-common-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-bundled-common:16.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/411df56e51ad31a476c799c5f789abc9/transformed/jetified-text-recognition-bundled-common-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:19.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/1d94213cde3e71bbb1e3424fadb00ab8/transformed/jetified-play-services-mlkit-text-recognition-19.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:19.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/1d94213cde3e71bbb1e3424fadb00ab8/transformed/jetified-play-services-mlkit-text-recognition-19.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/817f14d529be4b6e670387be889d3184/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/817f14d529be4b6e670387be889d3184/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/98be7da733159fb8b93bad145ea6080c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/98be7da733159fb8b93bad145ea6080c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:6:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/pranshumishra/.gradle/caches/transforms-3/f8bcd69635dbc29112e7afc1f20e3672/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/pranshumishra/.gradle/caches/transforms-3/f8bcd69635dbc29112e7afc1f20e3672/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.ai.client.generativeai:generativeai:0.9.0] /Users/pranshumishra/.gradle/caches/transforms-3/1f26bee8afd29ea079a20fd68e94d319/transformed/jetified-generativeai-0.9.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.ai.client.generativeai:generativeai:0.9.0] /Users/pranshumishra/.gradle/caches/transforms-3/1f26bee8afd29ea079a20fd68e94d319/transformed/jetified-generativeai-0.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/04ba609194dbd3ecd75e8f52a1cc037a/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/04ba609194dbd3ecd75e8f52a1cc037a/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/235ca6a87db3b3b07e3fcbc7fb279387/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/235ca6a87db3b3b07e3fcbc7fb279387/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/59dbed84b7a1db45450c41b8f4f777ad/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/59dbed84b7a1db45450c41b8f4f777ad/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/44a9f7a7bf1846c0d617bd7c0643cd25/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/44a9f7a7bf1846c0d617bd7c0643cd25/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/451c3f8628937c04c04b37c959c4052e/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/451c3f8628937c04c04b37c959c4052e/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/8ca2eb5b2b06356bbb1db143a53111bf/transformed/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/8ca2eb5b2b06356bbb1db143a53111bf/transformed/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/1ab36e18362a6e6c6919c3cabcf2b5e0/transformed/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/1ab36e18362a6e6c6919c3cabcf2b5e0/transformed/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/cdeda6658dbf5b9d2f989936bb1f8078/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/cdeda6658dbf5b9d2f989936bb1f8078/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/d52462829fe7aec96ebad04c7dc82723/transformed/jetified-vision-interfaces-16.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/d52462829fe7aec96ebad04c7dc82723/transformed/jetified-vision-interfaces-16.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/pranshumishra/.gradle/caches/transforms-3/db3c88879ba43a54a61b2debb5024117/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/pranshumishra/.gradle/caches/transforms-3/db3c88879ba43a54a61b2debb5024117/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/fdad2b18169e9885b972268c35143281/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/fdad2b18169e9885b972268c35143281/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/pranshumishra/.gradle/caches/transforms-3/f554f6c0eae4bb9124b8e1c7eb764a8a/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/pranshumishra/.gradle/caches/transforms-3/f554f6c0eae4bb9124b8e1c7eb764a8a/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] /Users/pranshumishra/.gradle/caches/transforms-3/1be193349fc96a3fe4c314002b632f93/transformed/jetified-activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] /Users/pranshumishra/.gradle/caches/transforms-3/1be193349fc96a3fe4c314002b632f93/transformed/jetified-activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/pranshumishra/.gradle/caches/transforms-3/3eaa36594c195f01eb42ffd6c2c7f783/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/pranshumishra/.gradle/caches/transforms-3/3eaa36594c195f01eb42ffd6c2c7f783/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/f19a70ceb5bd29fde57cc9a9808453bf/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/f19a70ceb5bd29fde57cc9a9808453bf/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/2182440ea9bfcd5d4163085a95a580f0/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/2182440ea9bfcd5d4163085a95a580f0/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/f049cb2ba9e96d374cfbf75625fded8d/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/f049cb2ba9e96d374cfbf75625fded8d/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/37ef08db2fe5f115d56ff099ec06f1e3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/37ef08db2fe5f115d56ff099ec06f1e3/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/a86bfb711a54dfbe815954fcc96cbf0a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/a86bfb711a54dfbe815954fcc96cbf0a/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/6bda6ca7567426896b5ddc76f6c2c481/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/6bda6ca7567426896b5ddc76f6c2c481/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/34c52f099303e8374165098ec5d3e888/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/34c52f099303e8374165098ec5d3e888/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/72cc7baca60d5373ccf5bff643e0a6f6/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/72cc7baca60d5373ccf5bff643e0a6f6/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/6e334e07fcf368904daabc23cceb5eae/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/6e334e07fcf368904daabc23cceb5eae/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/94971674fb8313f2bba467de6f3a0056/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/94971674fb8313f2bba467de6f3a0056/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] /Users/pranshumishra/.gradle/caches/transforms-3/5c8e145eda2e84e839db6f33448eb220/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/pranshumishra/.gradle/caches/transforms-3/5c8e145eda2e84e839db6f33448eb220/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.ai.client.generativeai:common:0.8.0] /Users/pranshumishra/.gradle/caches/transforms-3/07daffc34e93ad13610af2e080d108cf/transformed/jetified-common-0.8.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.ai.client.generativeai:common:0.8.0] /Users/pranshumishra/.gradle/caches/transforms-3/07daffc34e93ad13610af2e080d108cf/transformed/jetified-common-0.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/df451f32da817d03884edfa0ae385555/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/df451f32da817d03884edfa0ae385555/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/f10082c00f401c4c519a7efd72c51264/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/f10082c00f401c4c519a7efd72c51264/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/168c455dd25cbe70e89c3e56ff41d075/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/168c455dd25cbe70e89c3e56ff41d075/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/pranshumishra/.gradle/caches/transforms-3/e510fc381b7d015118e1244126eb0e36/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/pranshumishra/.gradle/caches/transforms-3/e510fc381b7d015118e1244126eb0e36/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/37b437aa98ab3da0893039f5d1c5e64a/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/37b437aa98ab3da0893039f5d1c5e64a/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/b0072b0bf887b479a86d7809f427a594/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/b0072b0bf887b479a86d7809f427a594/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/600279b00d24c074173bacecaf323d94/transformed/jetified-lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/600279b00d24c074173bacecaf323d94/transformed/jetified-lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/d0485fcb406e7699b4d94788ab1317a3/transformed/jetified-lifecycle-service-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/d0485fcb406e7699b4d94788ab1317a3/transformed/jetified-lifecycle-service-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/d9ad6e68e9626c0a466cd1baec32553f/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/d9ad6e68e9626c0a466cd1baec32553f/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/pranshumishra/.gradle/caches/transforms-3/e91140aafe3103f07c0a3146ae5baa76/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/pranshumishra/.gradle/caches/transforms-3/e91140aafe3103f07c0a3146ae5baa76/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] /Users/pranshumishra/.gradle/caches/transforms-3/deb590af25d9a87fd2890227e97ce624/transformed/jetified-annotation-experimental-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] /Users/pranshumishra/.gradle/caches/transforms-3/deb590af25d9a87fd2890227e97ce624/transformed/jetified-annotation-experimental-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/3b04bb0dd02816148d127269a0c49411/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/3b04bb0dd02816148d127269a0c49411/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/366d332781c1e2d22522184a08ecec24/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/366d332781c1e2d22522184a08ecec24/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pranshumishra/.gradle/caches/transforms-3/28ee25b590aaf466f604cbac7cd145d3/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pranshumishra/.gradle/caches/transforms-3/28ee25b590aaf466f604cbac7cd145d3/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/pranshumishra/.gradle/caches/transforms-3/739eee708b4436c25655c03f9d369ea1/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/pranshumishra/.gradle/caches/transforms-3/739eee708b4436c25655c03f9d369ea1/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/pranshumishra/.gradle/caches/transforms-3/2bd9b1a072bf836d622a4a83a37db910/transformed/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/pranshumishra/.gradle/caches/transforms-3/2bd9b1a072bf836d622a4a83a37db910/transformed/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/5186a952b7dda4a647952c2821e4f9b8/transformed/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/5186a952b7dda4a647952c2821e4f9b8/transformed/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/da7a37ec37c8d760d84e0f25e85f5736/transformed/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/da7a37ec37c8d760d84e0f25e85f5736/transformed/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/pranshumishra/.gradle/caches/transforms-3/05b902d57c1dec2f376278a8710d8f97/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/pranshumishra/.gradle/caches/transforms-3/05b902d57c1dec2f376278a8710d8f97/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/8a4152e86e663211b4ffdaba7976bffb/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/8a4152e86e663211b4ffdaba7976bffb/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/pranshumishra/.gradle/caches/transforms-3/f7e0361a7ed25fe9a5a8b6503b53ea2f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/pranshumishra/.gradle/caches/transforms-3/f7e0361a7ed25fe9a5a8b6503b53ea2f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/pranshumishra/.gradle/caches/transforms-3/b96ec1dc91813c48fe925aee0c02ad79/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/pranshumishra/.gradle/caches/transforms-3/b96ec1dc91813c48fe925aee0c02ad79/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/66e3c4f4a8c3dd7658ac6f73a1eca4b2/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/66e3c4f4a8c3dd7658ac6f73a1eca4b2/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/d4d6d5b9bbf6f8acab3e856d7f4ab4ea/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/d4d6d5b9bbf6f8acab3e856d7f4ab4ea/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/295efb33c8771a706e9b9509279b53be/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/295efb33c8771a706e9b9509279b53be/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/49402a2beed8c684965eafd10e02a774/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/49402a2beed8c684965eafd10e02a774/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/ba7d0f75be54b5d788a0bd6dd852b692/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/ba7d0f75be54b5d788a0bd6dd852b692/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/pranshumishra/.gradle/caches/transforms-3/76dadc40628b7f22d8534c062fc87e2a/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/pranshumishra/.gradle/caches/transforms-3/76dadc40628b7f22d8534c062fc87e2a/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from [androidx.camera:camera-camera2:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/eaf7dd093075f73154108ac489587906/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-core:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/69891c6687e5db82b1f0a149e9e77cd1/transformed/jetified-camera-core-1.3.0/AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-core:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/69891c6687e5db82b1f0a149e9e77cd1/transformed/jetified-camera-core-1.3.0/AndroidManifest.xml:29:9-33:78
+	tools:node
+		ADDED from [androidx.camera:camera-camera2:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/eaf7dd093075f73154108ac489587906/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:29:13-31
+	android:enabled
+		ADDED from [androidx.camera:camera-camera2:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/eaf7dd093075f73154108ac489587906/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:26:13-36
+	android:exported
+		ADDED from [androidx.camera:camera-camera2:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/eaf7dd093075f73154108ac489587906/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.camera:camera-camera2:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/eaf7dd093075f73154108ac489587906/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:28:13-75
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/eaf7dd093075f73154108ac489587906/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:25:13-75
+meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
+ADDED from [androidx.camera:camera-camera2:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/eaf7dd093075f73154108ac489587906/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:30:13-32:89
+	android:value
+		ADDED from [androidx.camera:camera-camera2:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/eaf7dd093075f73154108ac489587906/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:32:17-86
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/eaf7dd093075f73154108ac489587906/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:31:17-103
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.mlkit:object-detection:17.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/c6a5be78e65a8ed5311e907849e3ade3/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:7:5-79
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/pranshumishra/.gradle/caches/transforms-3/13421a47e51eee4335d58726be5f0a97/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:7:5-79
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/pranshumishra/.gradle/caches/transforms-3/13421a47e51eee4335d58726be5f0a97/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pranshumishra/.gradle/caches/transforms-3/28ee25b590aaf466f604cbac7cd145d3/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pranshumishra/.gradle/caches/transforms-3/28ee25b590aaf466f604cbac7cd145d3/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/pranshumishra/.gradle/caches/transforms-3/739eee708b4436c25655c03f9d369ea1/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/pranshumishra/.gradle/caches/transforms-3/739eee708b4436c25655c03f9d369ea1/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.mlkit:object-detection:17.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/c6a5be78e65a8ed5311e907849e3ade3/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:7:22-76
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.mlkit:object-detection:17.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/c6a5be78e65a8ed5311e907849e3ade3/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.mlkit:image-labeling:17.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/96cb25264e99c85ef809644113bb9c4a/transformed/jetified-image-labeling-17.0.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling:17.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/96cb25264e99c85ef809644113bb9c4a/transformed/jetified-image-labeling-17.0.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/pranshumishra/.gradle/caches/transforms-3/13421a47e51eee4335d58726be5f0a97/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/pranshumishra/.gradle/caches/transforms-3/13421a47e51eee4335d58726be5f0a97/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/817f14d529be4b6e670387be889d3184/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/817f14d529be4b6e670387be889d3184/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/98be7da733159fb8b93bad145ea6080c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/98be7da733159fb8b93bad145ea6080c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.mlkit:object-detection:17.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/c6a5be78e65a8ed5311e907849e3ade3/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:13:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.mlkit:object-detection:17.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/c6a5be78e65a8ed5311e907849e3ade3/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:12:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.objects.defaults.internal.DefaultObjectsRegistrar
+ADDED from [com.google.mlkit:object-detection:17.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/c6a5be78e65a8ed5311e907849e3ade3/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.mlkit:object-detection:17.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/c6a5be78e65a8ed5311e907849e3ade3/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.mlkit:object-detection:17.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/c6a5be78e65a8ed5311e907849e3ade3/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:15:17-136
+meta-data#com.google.firebase.components:com.google.mlkit.vision.label.defaults.internal.BundledLabelRegistrar
+ADDED from [com.google.mlkit:image-labeling:17.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/96cb25264e99c85ef809644113bb9c4a/transformed/jetified-image-labeling-17.0.0/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:image-labeling:17.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/96cb25264e99c85ef809644113bb9c4a/transformed/jetified-image-labeling-17.0.0/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:image-labeling:17.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/96cb25264e99c85ef809644113bb9c4a/transformed/jetified-image-labeling-17.0.0/AndroidManifest.xml:12:17-132
+meta-data#com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar
+ADDED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/pranshumishra/.gradle/caches/transforms-3/13421a47e51eee4335d58726be5f0a97/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/pranshumishra/.gradle/caches/transforms-3/13421a47e51eee4335d58726be5f0a97/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/pranshumishra/.gradle/caches/transforms-3/13421a47e51eee4335d58726be5f0a97/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:15:17-103
+meta-data#com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/817f14d529be4b6e670387be889d3184/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/817f14d529be4b6e670387be889d3184/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/817f14d529be4b6e670387be889d3184/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:17.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/98be7da733159fb8b93bad145ea6080c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:17.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/98be7da733159fb8b93bad145ea6080c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:17.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/98be7da733159fb8b93bad145ea6080c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:21:17-120
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/235ca6a87db3b3b07e3fcbc7fb279387/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/f10082c00f401c4c519a7efd72c51264/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/f10082c00f401c4c519a7efd72c51264/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/pranshumishra/.gradle/caches/transforms-3/b96ec1dc91813c48fe925aee0c02ad79/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/pranshumishra/.gradle/caches/transforms-3/b96ec1dc91813c48fe925aee0c02ad79/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/235ca6a87db3b3b07e3fcbc7fb279387/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/235ca6a87db3b3b07e3fcbc7fb279387/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/235ca6a87db3b3b07e3fcbc7fb279387/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/235ca6a87db3b3b07e3fcbc7fb279387/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/235ca6a87db3b3b07e3fcbc7fb279387/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/235ca6a87db3b3b07e3fcbc7fb279387/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/235ca6a87db3b3b07e3fcbc7fb279387/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/cdeda6658dbf5b9d2f989936bb1f8078/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/cdeda6658dbf5b9d2f989936bb1f8078/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/cdeda6658dbf5b9d2f989936bb1f8078/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/cdeda6658dbf5b9d2f989936bb1f8078/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/fdad2b18169e9885b972268c35143281/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/fdad2b18169e9885b972268c35143281/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/fdad2b18169e9885b972268c35143281/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/pranshumishra/.gradle/caches/transforms-3/5c8e145eda2e84e839db6f33448eb220/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/pranshumishra/.gradle/caches/transforms-3/5c8e145eda2e84e839db6f33448eb220/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/pranshumishra/.gradle/caches/transforms-3/5c8e145eda2e84e839db6f33448eb220/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.senseway.karnataka.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/pranshumishra/.gradle/caches/transforms-3/5c8e145eda2e84e839db6f33448eb220/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/pranshumishra/.gradle/caches/transforms-3/5c8e145eda2e84e839db6f33448eb220/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/pranshumishra/.gradle/caches/transforms-3/5c8e145eda2e84e839db6f33448eb220/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/pranshumishra/.gradle/caches/transforms-3/5c8e145eda2e84e839db6f33448eb220/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/pranshumishra/.gradle/caches/transforms-3/5c8e145eda2e84e839db6f33448eb220/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#com.senseway.karnataka.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/pranshumishra/.gradle/caches/transforms-3/5c8e145eda2e84e839db6f33448eb220/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/pranshumishra/.gradle/caches/transforms-3/5c8e145eda2e84e839db6f33448eb220/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/f10082c00f401c4c519a7efd72c51264/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/f10082c00f401c4c519a7efd72c51264/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/f10082c00f401c4c519a7efd72c51264/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pranshumishra/.gradle/caches/transforms-3/28ee25b590aaf466f604cbac7cd145d3/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/pranshumishra/.gradle/caches/transforms-3/739eee708b4436c25655c03f9d369ea1/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/pranshumishra/.gradle/caches/transforms-3/739eee708b4436c25655c03f9d369ea1/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pranshumishra/.gradle/caches/transforms-3/28ee25b590aaf466f604cbac7cd145d3/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pranshumishra/.gradle/caches/transforms-3/28ee25b590aaf466f604cbac7cd145d3/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pranshumishra/.gradle/caches/transforms-3/28ee25b590aaf466f604cbac7cd145d3/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pranshumishra/.gradle/caches/transforms-3/28ee25b590aaf466f604cbac7cd145d3/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pranshumishra/.gradle/caches/transforms-3/28ee25b590aaf466f604cbac7cd145d3/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/pranshumishra/.gradle/caches/transforms-3/739eee708b4436c25655c03f9d369ea1/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/pranshumishra/.gradle/caches/transforms-3/739eee708b4436c25655c03f9d369ea1/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/pranshumishra/.gradle/caches/transforms-3/739eee708b4436c25655c03f9d369ea1/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/pranshumishra/.gradle/caches/transforms-3/739eee708b4436c25655c03f9d369ea1/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/pranshumishra/.gradle/caches/transforms-3/739eee708b4436c25655c03f9d369ea1/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/pranshumishra/.gradle/caches/transforms-3/739eee708b4436c25655c03f9d369ea1/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/pranshumishra/.gradle/caches/transforms-3/739eee708b4436c25655c03f9d369ea1/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132

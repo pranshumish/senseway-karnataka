@@ -1,0 +1,384 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.senseway.karnataka"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permissions -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:6:5-67
+12-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:7:5-71
+13-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:7:22-68
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:8:5-79
+14-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:9:5-81
+15-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+16-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:10:5-85
+16-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:10:22-82
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:11:5-77
+17-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:11:22-74
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+18-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:12:5-88
+18-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:12:22-85
+19    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+19-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:13:5-77
+19-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:13:22-74
+20    <uses-permission android:name="android.permission.VIBRATE" />
+20-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:14:5-66
+20-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:14:22-63
+21    <uses-permission android:name="android.permission.CALL_PHONE" />
+21-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:15:5-69
+21-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:15:22-66
+22    <uses-permission android:name="android.permission.SEND_SMS" />
+22-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:16:5-67
+22-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:16:22-64
+23    <uses-permission android:name="android.permission.CAMERA" />
+23-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:17:5-65
+23-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:17:22-62
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:19:5-68
+24-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:19:22-65
+25    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+25-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:20:5-81
+25-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:20:22-78
+26    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+26-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:21:5-78
+26-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:21:22-75
+27
+28    <uses-feature
+28-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:23:5-85
+29        android:name="android.hardware.camera"
+29-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:23:19-57
+30        android:required="false" />
+30-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:23:58-82
+31    <uses-feature
+31-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:24:5-95
+32        android:name="android.hardware.camera.autofocus"
+32-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:24:19-67
+33        android:required="false" />
+33-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:24:68-92
+34    <uses-feature
+34-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:25:5-88
+35        android:name="android.hardware.microphone"
+35-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:25:19-61
+36        android:required="true" />
+36-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:25:62-85
+37
+38    <!-- Package Visibility for Google Maps (Required for Android 11+) -->
+39    <queries>
+39-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:28:5-34:15
+40        <package android:name="com.google.android.apps.maps" />
+40-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:29:9-64
+40-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:29:18-61
+41
+42        <intent>
+42-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:30:9-33:18
+43            <action android:name="android.intent.action.VIEW" />
+43-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:31:13-65
+43-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:31:21-62
+44
+45            <data android:scheme="google.navigation" />
+45-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:32:13-56
+45-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:32:19-53
+46        </intent>
+47    </queries>
+48
+49    <!-- For remote config -->
+50    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+50-->[com.google.mlkit:object-detection:17.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/c6a5be78e65a8ed5311e907849e3ade3/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:7:5-79
+50-->[com.google.mlkit:object-detection:17.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/c6a5be78e65a8ed5311e907849e3ade3/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:7:22-76
+51
+52    <permission
+52-->[androidx.core:core:1.12.0] /Users/pranshumishra/.gradle/caches/transforms-3/5c8e145eda2e84e839db6f33448eb220/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+53        android:name="com.senseway.karnataka.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+53-->[androidx.core:core:1.12.0] /Users/pranshumishra/.gradle/caches/transforms-3/5c8e145eda2e84e839db6f33448eb220/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+54        android:protectionLevel="signature" />
+54-->[androidx.core:core:1.12.0] /Users/pranshumishra/.gradle/caches/transforms-3/5c8e145eda2e84e839db6f33448eb220/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+55
+56    <uses-permission android:name="com.senseway.karnataka.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+56-->[androidx.core:core:1.12.0] /Users/pranshumishra/.gradle/caches/transforms-3/5c8e145eda2e84e839db6f33448eb220/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+56-->[androidx.core:core:1.12.0] /Users/pranshumishra/.gradle/caches/transforms-3/5c8e145eda2e84e839db6f33448eb220/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+57
+58    <application
+58-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:36:5-86:19
+59        android:allowBackup="true"
+59-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:37:9-35
+60        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+60-->[androidx.core:core:1.12.0] /Users/pranshumishra/.gradle/caches/transforms-3/5c8e145eda2e84e839db6f33448eb220/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+61        android:debuggable="true"
+62        android:extractNativeLibs="false"
+63        android:icon="@mipmap/ic_launcher"
+63-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:38:9-43
+64        android:label="@string/app_name"
+64-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:39:9-41
+65        android:roundIcon="@mipmap/ic_launcher_round"
+65-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:40:9-54
+66        android:supportsRtl="true"
+66-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:41:9-35
+67        android:theme="@style/Theme.SenseWay" >
+67-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:42:9-46
+68        <activity
+68-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:45:9-53:20
+69            android:name="com.senseway.karnataka.MainActivity"
+69-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:46:13-41
+70            android:exported="true"
+70-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:47:13-36
+71            android:screenOrientation="portrait" >
+71-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:48:13-49
+72            <intent-filter>
+72-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:49:13-52:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:50:17-69
+73-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:50:25-66
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:51:17-77
+75-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:51:27-74
+76            </intent-filter>
+77        </activity>
+78        <activity
+78-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:55:9-58:52
+79            android:name="com.senseway.karnataka.AddZoneActivity"
+79-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:56:13-44
+80            android:exported="false"
+80-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:57:13-37
+81            android:screenOrientation="portrait" />
+81-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:58:13-49
+82        <activity
+82-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:60:9-63:52
+83            android:name="com.senseway.karnataka.SceneDescriptionActivity"
+83-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:61:13-53
+84            android:exported="false"
+84-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:62:13-37
+85            android:screenOrientation="portrait" />
+85-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:63:13-49
+86        <activity
+86-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:65:9-68:52
+87            android:name="com.senseway.karnataka.MoneyIdentifierActivity"
+87-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:66:13-52
+88            android:exported="false"
+88-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:67:13-37
+89            android:screenOrientation="portrait" />
+89-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:68:13-49
+90        <activity
+90-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:70:9-73:52
+91            android:name="com.senseway.karnataka.EmergencyContactActivity"
+91-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:71:13-53
+92            android:exported="false"
+92-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:72:13-37
+93            android:screenOrientation="portrait" />
+93-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:73:13-49
+94        <activity
+94-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:75:9-78:52
+95            android:name="com.senseway.karnataka.TextReaderActivity"
+95-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:76:13-47
+96            android:exported="false"
+96-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:77:13-37
+97            android:screenOrientation="portrait" />
+97-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:78:13-49
+98
+99        <service
+99-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:80:9-84:58
+100            android:name="com.senseway.karnataka.VoiceService"
+100-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:81:13-41
+101            android:enabled="true"
+101-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:82:13-35
+102            android:exported="false"
+102-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:83:13-37
+103            android:foregroundServiceType="microphone" />
+103-->/Users/pranshumishra/Desktop/el work/app/src/main/AndroidManifest.xml:84:13-55
+104        <service
+104-->[androidx.camera:camera-camera2:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/eaf7dd093075f73154108ac489587906/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:24:9-33:19
+105            android:name="androidx.camera.core.impl.MetadataHolderService"
+105-->[androidx.camera:camera-camera2:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/eaf7dd093075f73154108ac489587906/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:25:13-75
+106            android:enabled="false"
+106-->[androidx.camera:camera-camera2:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/eaf7dd093075f73154108ac489587906/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:26:13-36
+107            android:exported="false" >
+107-->[androidx.camera:camera-camera2:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/eaf7dd093075f73154108ac489587906/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:27:13-37
+108            <meta-data
+108-->[androidx.camera:camera-camera2:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/eaf7dd093075f73154108ac489587906/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:30:13-32:89
+109                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+109-->[androidx.camera:camera-camera2:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/eaf7dd093075f73154108ac489587906/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:31:17-103
+110                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+110-->[androidx.camera:camera-camera2:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/eaf7dd093075f73154108ac489587906/transformed/jetified-camera-camera2-1.3.0/AndroidManifest.xml:32:17-86
+111        </service>
+112        <service
+112-->[com.google.mlkit:object-detection:17.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/c6a5be78e65a8ed5311e907849e3ade3/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:11:9-17:19
+113            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+113-->[com.google.mlkit:object-detection:17.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/c6a5be78e65a8ed5311e907849e3ade3/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:12:13-91
+114            android:directBootAware="true"
+114-->[com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:17:13-43
+115            android:exported="false" >
+115-->[com.google.mlkit:object-detection:17.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/c6a5be78e65a8ed5311e907849e3ade3/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:13:13-37
+116            <meta-data
+116-->[com.google.mlkit:object-detection:17.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/c6a5be78e65a8ed5311e907849e3ade3/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:14:13-16:85
+117                android:name="com.google.firebase.components:com.google.mlkit.vision.objects.defaults.internal.DefaultObjectsRegistrar"
+117-->[com.google.mlkit:object-detection:17.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/c6a5be78e65a8ed5311e907849e3ade3/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:15:17-136
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.mlkit:object-detection:17.0.1] /Users/pranshumishra/.gradle/caches/transforms-3/c6a5be78e65a8ed5311e907849e3ade3/transformed/jetified-object-detection-17.0.1/AndroidManifest.xml:16:17-82
+119            <meta-data
+119-->[com.google.mlkit:image-labeling:17.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/96cb25264e99c85ef809644113bb9c4a/transformed/jetified-image-labeling-17.0.0/AndroidManifest.xml:11:13-13:85
+120                android:name="com.google.firebase.components:com.google.mlkit.vision.label.defaults.internal.BundledLabelRegistrar"
+120-->[com.google.mlkit:image-labeling:17.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/96cb25264e99c85ef809644113bb9c4a/transformed/jetified-image-labeling-17.0.0/AndroidManifest.xml:12:17-132
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.mlkit:image-labeling:17.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/96cb25264e99c85ef809644113bb9c4a/transformed/jetified-image-labeling-17.0.0/AndroidManifest.xml:13:17-82
+122            <meta-data
+122-->[com.google.mlkit:vision-internal-vkp:18.2.2] /Users/pranshumishra/.gradle/caches/transforms-3/13421a47e51eee4335d58726be5f0a97/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:14:13-16:85
+123                android:name="com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar"
+123-->[com.google.mlkit:vision-internal-vkp:18.2.2] /Users/pranshumishra/.gradle/caches/transforms-3/13421a47e51eee4335d58726be5f0a97/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:15:17-103
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.mlkit:vision-internal-vkp:18.2.2] /Users/pranshumishra/.gradle/caches/transforms-3/13421a47e51eee4335d58726be5f0a97/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:16:17-82
+125            <meta-data
+125-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/817f14d529be4b6e670387be889d3184/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:12:13-14:85
+126                android:name="com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar"
+126-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/817f14d529be4b6e670387be889d3184/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:13:17-114
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/pranshumishra/.gradle/caches/transforms-3/817f14d529be4b6e670387be889d3184/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:14:17-82
+128            <meta-data
+128-->[com.google.mlkit:vision-common:17.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/98be7da733159fb8b93bad145ea6080c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:12:13-14:85
+129                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+129-->[com.google.mlkit:vision-common:17.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/98be7da733159fb8b93bad145ea6080c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:13:17-124
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.mlkit:vision-common:17.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/98be7da733159fb8b93bad145ea6080c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:14:17-82
+131            <meta-data
+131-->[com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:20:13-22:85
+132                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+132-->[com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:21:17-120
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:22:17-82
+134        </service>
+135
+136        <provider
+136-->[com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:9:9-13:38
+137            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+137-->[com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:10:13-78
+138            android:authorities="com.senseway.karnataka.mlkitinitprovider"
+138-->[com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:11:13-69
+139            android:exported="false"
+139-->[com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:12:13-37
+140            android:initOrder="99" />
+140-->[com.google.mlkit:common:18.10.0] /Users/pranshumishra/.gradle/caches/transforms-3/e243f68034d2a7a3a982cc7b478efa10/transformed/jetified-common-18.10.0/AndroidManifest.xml:13:13-35
+141        <provider
+141-->[androidx.emoji2:emoji2:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/235ca6a87db3b3b07e3fcbc7fb279387/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+142            android:name="androidx.startup.InitializationProvider"
+142-->[androidx.emoji2:emoji2:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/235ca6a87db3b3b07e3fcbc7fb279387/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+143            android:authorities="com.senseway.karnataka.androidx-startup"
+143-->[androidx.emoji2:emoji2:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/235ca6a87db3b3b07e3fcbc7fb279387/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+144            android:exported="false" >
+144-->[androidx.emoji2:emoji2:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/235ca6a87db3b3b07e3fcbc7fb279387/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+145            <meta-data
+145-->[androidx.emoji2:emoji2:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/235ca6a87db3b3b07e3fcbc7fb279387/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+146                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+146-->[androidx.emoji2:emoji2:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/235ca6a87db3b3b07e3fcbc7fb279387/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+147                android:value="androidx.startup" />
+147-->[androidx.emoji2:emoji2:1.2.0] /Users/pranshumishra/.gradle/caches/transforms-3/235ca6a87db3b3b07e3fcbc7fb279387/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+148            <meta-data
+148-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/f10082c00f401c4c519a7efd72c51264/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+149                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+149-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/f10082c00f401c4c519a7efd72c51264/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+150                android:value="androidx.startup" />
+150-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/pranshumishra/.gradle/caches/transforms-3/f10082c00f401c4c519a7efd72c51264/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+151            <meta-data
+151-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+152                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+153                android:value="androidx.startup" />
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+154        </provider>
+155
+156        <activity
+156-->[com.google.android.gms:play-services-base:18.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/cdeda6658dbf5b9d2f989936bb1f8078/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+157            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+157-->[com.google.android.gms:play-services-base:18.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/cdeda6658dbf5b9d2f989936bb1f8078/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+158            android:exported="false"
+158-->[com.google.android.gms:play-services-base:18.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/cdeda6658dbf5b9d2f989936bb1f8078/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+159            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+159-->[com.google.android.gms:play-services-base:18.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/cdeda6658dbf5b9d2f989936bb1f8078/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+160
+161        <meta-data
+161-->[com.google.android.gms:play-services-basement:18.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/fdad2b18169e9885b972268c35143281/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+162            android:name="com.google.android.gms.version"
+162-->[com.google.android.gms:play-services-basement:18.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/fdad2b18169e9885b972268c35143281/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+163            android:value="@integer/google_play_services_version" />
+163-->[com.google.android.gms:play-services-basement:18.1.0] /Users/pranshumishra/.gradle/caches/transforms-3/fdad2b18169e9885b972268c35143281/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+164
+165        <receiver
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+166            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+166-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+167            android:directBootAware="false"
+167-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+168            android:enabled="true"
+168-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+169            android:exported="true"
+169-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+170            android:permission="android.permission.DUMP" >
+170-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+171            <intent-filter>
+171-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+172                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+172-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+172-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+173            </intent-filter>
+174            <intent-filter>
+174-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+175                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+175-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+175-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+176            </intent-filter>
+177            <intent-filter>
+177-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+178                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+178-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+178-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+179            </intent-filter>
+180            <intent-filter>
+180-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+181                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+181-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+181-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+182            </intent-filter>
+183        </receiver>
+184
+185        <service
+185-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pranshumishra/.gradle/caches/transforms-3/28ee25b590aaf466f604cbac7cd145d3/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+186            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+186-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pranshumishra/.gradle/caches/transforms-3/28ee25b590aaf466f604cbac7cd145d3/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+187            android:exported="false" >
+187-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pranshumishra/.gradle/caches/transforms-3/28ee25b590aaf466f604cbac7cd145d3/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+188            <meta-data
+188-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pranshumishra/.gradle/caches/transforms-3/28ee25b590aaf466f604cbac7cd145d3/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+189                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+189-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pranshumishra/.gradle/caches/transforms-3/28ee25b590aaf466f604cbac7cd145d3/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+190                android:value="cct" />
+190-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/pranshumishra/.gradle/caches/transforms-3/28ee25b590aaf466f604cbac7cd145d3/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+191        </service>
+192        <service
+192-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/pranshumishra/.gradle/caches/transforms-3/739eee708b4436c25655c03f9d369ea1/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+193            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+193-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/pranshumishra/.gradle/caches/transforms-3/739eee708b4436c25655c03f9d369ea1/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+194            android:exported="false"
+194-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/pranshumishra/.gradle/caches/transforms-3/739eee708b4436c25655c03f9d369ea1/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+195            android:permission="android.permission.BIND_JOB_SERVICE" >
+195-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/pranshumishra/.gradle/caches/transforms-3/739eee708b4436c25655c03f9d369ea1/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+196        </service>
+197
+198        <receiver
+198-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/pranshumishra/.gradle/caches/transforms-3/739eee708b4436c25655c03f9d369ea1/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+199            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+199-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/pranshumishra/.gradle/caches/transforms-3/739eee708b4436c25655c03f9d369ea1/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+200            android:exported="false" />
+200-->[com.google.android.datatransport:transport-runtime:2.2.6] /Users/pranshumishra/.gradle/caches/transforms-3/739eee708b4436c25655c03f9d369ea1/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+201    </application>
+202
+203</manifest>

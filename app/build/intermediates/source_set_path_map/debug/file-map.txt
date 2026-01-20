@@ -1,0 +1,43 @@
+com.senseway.karnataka.app-jetified-emoji2-views-helper-1.2.0-0 /Users/pranshumishra/.gradle/caches/transforms-3/04ba609194dbd3ecd75e8f52a1cc037a/transformed/jetified-emoji2-views-helper-1.2.0/res
+com.senseway.karnataka.app-jetified-profileinstaller-1.3.0-1 /Users/pranshumishra/.gradle/caches/transforms-3/0c66e36f8abd2edf0c1203cc001bf6d5/transformed/jetified-profileinstaller-1.3.0/res
+com.senseway.karnataka.app-jetified-camera-lifecycle-1.3.0-2 /Users/pranshumishra/.gradle/caches/transforms-3/0e7ea674e516f93c6a56dab7c00ba24c/transformed/jetified-camera-lifecycle-1.3.0/res
+com.senseway.karnataka.app-lifecycle-livedata-2.6.2-3 /Users/pranshumishra/.gradle/caches/transforms-3/168c455dd25cbe70e89c3e56ff41d075/transformed/lifecycle-livedata-2.6.2/res
+com.senseway.karnataka.app-jetified-activity-1.8.0-4 /Users/pranshumishra/.gradle/caches/transforms-3/1be193349fc96a3fe4c314002b632f93/transformed/jetified-activity-1.8.0/res
+com.senseway.karnataka.app-jetified-emoji2-1.2.0-5 /Users/pranshumishra/.gradle/caches/transforms-3/235ca6a87db3b3b07e3fcbc7fb279387/transformed/jetified-emoji2-1.2.0/res
+com.senseway.karnataka.app-jetified-camera-video-1.3.0-6 /Users/pranshumishra/.gradle/caches/transforms-3/34c872032025888455d21bb7c04cee1d/transformed/jetified-camera-video-1.3.0/res
+com.senseway.karnataka.app-cardview-1.0.0-7 /Users/pranshumishra/.gradle/caches/transforms-3/366d332781c1e2d22522184a08ecec24/transformed/cardview-1.0.0/res
+com.senseway.karnataka.app-lifecycle-viewmodel-2.6.2-8 /Users/pranshumishra/.gradle/caches/transforms-3/37b437aa98ab3da0893039f5d1c5e64a/transformed/lifecycle-viewmodel-2.6.2/res
+com.senseway.karnataka.app-drawerlayout-1.1.1-9 /Users/pranshumishra/.gradle/caches/transforms-3/3eaa36594c195f01eb42ffd6c2c7f783/transformed/drawerlayout-1.1.1/res
+com.senseway.karnataka.app-jetified-viewpager2-1.0.0-10 /Users/pranshumishra/.gradle/caches/transforms-3/59dbed84b7a1db45450c41b8f4f777ad/transformed/jetified-viewpager2-1.0.0/res
+com.senseway.karnataka.app-core-1.12.0-11 /Users/pranshumishra/.gradle/caches/transforms-3/5c8e145eda2e84e839db6f33448eb220/transformed/core-1.12.0/res
+com.senseway.karnataka.app-jetified-lifecycle-runtime-ktx-2.6.2-12 /Users/pranshumishra/.gradle/caches/transforms-3/600279b00d24c074173bacecaf323d94/transformed/jetified-lifecycle-runtime-ktx-2.6.2/res
+com.senseway.karnataka.app-jetified-camera-core-1.3.0-13 /Users/pranshumishra/.gradle/caches/transforms-3/69891c6687e5db82b1f0a149e9e77cd1/transformed/jetified-camera-core-1.3.0/res
+com.senseway.karnataka.app-jetified-appcompat-resources-1.6.1-14 /Users/pranshumishra/.gradle/caches/transforms-3/6c171733a382c520b8256ecb3ed8ff3b/transformed/jetified-appcompat-resources-1.6.1/res
+com.senseway.karnataka.app-recyclerview-1.1.0-15 /Users/pranshumishra/.gradle/caches/transforms-3/6e334e07fcf368904daabc23cceb5eae/transformed/recyclerview-1.1.0/res
+com.senseway.karnataka.app-material-1.10.0-16 /Users/pranshumishra/.gradle/caches/transforms-3/7ed15ff9a9efb04ea10cc3a856ae46b3/transformed/material-1.10.0/res
+com.senseway.karnataka.app-jetified-camera-view-1.3.0-17 /Users/pranshumishra/.gradle/caches/transforms-3/9edb67d09f41cf406c1a03fa86508238/transformed/jetified-camera-view-1.3.0/res
+com.senseway.karnataka.app-lifecycle-runtime-2.6.2-18 /Users/pranshumishra/.gradle/caches/transforms-3/b0072b0bf887b479a86d7809f427a594/transformed/lifecycle-runtime-2.6.2/res
+com.senseway.karnataka.app-jetified-startup-runtime-1.1.1-19 /Users/pranshumishra/.gradle/caches/transforms-3/b96ec1dc91813c48fe925aee0c02ad79/transformed/jetified-startup-runtime-1.1.1/res
+com.senseway.karnataka.app-jetified-play-services-base-18.1.0-20 /Users/pranshumishra/.gradle/caches/transforms-3/cdeda6658dbf5b9d2f989936bb1f8078/transformed/jetified-play-services-base-18.1.0/res
+com.senseway.karnataka.app-jetified-lifecycle-service-2.6.2-21 /Users/pranshumishra/.gradle/caches/transforms-3/d0485fcb406e7699b4d94788ab1317a3/transformed/jetified-lifecycle-service-2.6.2/res
+com.senseway.karnataka.app-constraintlayout-2.1.4-22 /Users/pranshumishra/.gradle/caches/transforms-3/d14855892462b8cc158125166586e2f9/transformed/constraintlayout-2.1.4/res
+com.senseway.karnataka.app-core-runtime-2.2.0-23 /Users/pranshumishra/.gradle/caches/transforms-3/d4d6d5b9bbf6f8acab3e856d7f4ab4ea/transformed/core-runtime-2.2.0/res
+com.senseway.karnataka.app-jetified-lifecycle-viewmodel-savedstate-2.6.2-24 /Users/pranshumishra/.gradle/caches/transforms-3/d9ad6e68e9626c0a466cd1baec32553f/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/res
+com.senseway.karnataka.app-jetified-annotation-experimental-1.3.1-25 /Users/pranshumishra/.gradle/caches/transforms-3/deb590af25d9a87fd2890227e97ce624/transformed/jetified-annotation-experimental-1.3.1/res
+com.senseway.karnataka.app-lifecycle-livedata-core-2.6.2-26 /Users/pranshumishra/.gradle/caches/transforms-3/df451f32da817d03884edfa0ae385555/transformed/lifecycle-livedata-core-2.6.2/res
+com.senseway.karnataka.app-jetified-savedstate-1.2.1-27 /Users/pranshumishra/.gradle/caches/transforms-3/e510fc381b7d015118e1244126eb0e36/transformed/jetified-savedstate-1.2.1/res
+com.senseway.karnataka.app-jetified-core-ktx-1.12.0-28 /Users/pranshumishra/.gradle/caches/transforms-3/e91140aafe3103f07c0a3146ae5baa76/transformed/jetified-core-ktx-1.12.0/res
+com.senseway.karnataka.app-jetified-camera-camera2-1.3.0-29 /Users/pranshumishra/.gradle/caches/transforms-3/eaf7dd093075f73154108ac489587906/transformed/jetified-camera-camera2-1.3.0/res
+com.senseway.karnataka.app-transition-1.2.0-30 /Users/pranshumishra/.gradle/caches/transforms-3/f049cb2ba9e96d374cfbf75625fded8d/transformed/transition-1.2.0/res
+com.senseway.karnataka.app-jetified-lifecycle-process-2.6.2-31 /Users/pranshumishra/.gradle/caches/transforms-3/f10082c00f401c4c519a7efd72c51264/transformed/jetified-lifecycle-process-2.6.2/res
+com.senseway.karnataka.app-coordinatorlayout-1.1.0-32 /Users/pranshumishra/.gradle/caches/transforms-3/f19a70ceb5bd29fde57cc9a9808453bf/transformed/coordinatorlayout-1.1.0/res
+com.senseway.karnataka.app-fragment-1.3.6-33 /Users/pranshumishra/.gradle/caches/transforms-3/f554f6c0eae4bb9124b8e1c7eb764a8a/transformed/fragment-1.3.6/res
+com.senseway.karnataka.app-appcompat-1.6.1-34 /Users/pranshumishra/.gradle/caches/transforms-3/f8bcd69635dbc29112e7afc1f20e3672/transformed/appcompat-1.6.1/res
+com.senseway.karnataka.app-jetified-play-services-basement-18.1.0-35 /Users/pranshumishra/.gradle/caches/transforms-3/fdad2b18169e9885b972268c35143281/transformed/jetified-play-services-basement-18.1.0/res
+com.senseway.karnataka.app-pngs-36 /Users/pranshumishra/Desktop/el work/app/build/generated/res/pngs/debug
+com.senseway.karnataka.app-resValues-37 /Users/pranshumishra/Desktop/el work/app/build/generated/res/resValues/debug
+com.senseway.karnataka.app-packageDebugResources-38 /Users/pranshumishra/Desktop/el work/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.senseway.karnataka.app-packageDebugResources-39 /Users/pranshumishra/Desktop/el work/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.senseway.karnataka.app-merged_res-40 /Users/pranshumishra/Desktop/el work/app/build/intermediates/merged_res/debug
+com.senseway.karnataka.app-debug-41 /Users/pranshumishra/Desktop/el work/app/src/debug/res
+com.senseway.karnataka.app-main-42 /Users/pranshumishra/Desktop/el work/app/src/main/res

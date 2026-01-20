@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#FFFFFF</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Premium Dark Theme Colors -->
+    <color name="background_dark">#121212</color>
+    <color name="surface_dark">#1E1E1E</color>
+    <color name="surface_light">#2C2C2C</color>
+    
+    <!-- Accents -->
+    <color name="primary_accent">#4D88FF</color> <!-- Vibrant Blue -->
+    <color name="secondary_accent">#00E5FF</color> <!-- Cyan -->
+    <color name="accent_gradient_start">#4D88FF</color>
+    <color name="accent_gradient_end">#00B8D4</color>
+    
+    <!-- Semantic -->
+    <color name="danger_red">#FF4444</color>
+    <color name="success_green">#00C853</color>
+    <color name="warning_orange">#FFAB00</color>
+    
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3B3B3</color>
+    <color name="text_tertiary">#808080</color>
+</resources>

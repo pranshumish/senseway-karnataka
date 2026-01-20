@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main_gradient"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SenseWay"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:letterSpacing="0.05"
+            android:gravity="center_horizontal" />
+            
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AI Assistant for Karnataka"
+            android:textSize="14sp"
+            android:textColor="@color/text_secondary"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Assistant Status / Toggle -->
+        <Button
+            android:id="@+id/btnStartAssistant"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:text="@string/start_assistant"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/btn_primary_bg"
+            app:backgroundTint="@null"
+            android:layout_marginBottom="24dp"
+            android:elevation="4dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NAVIGATION &amp; SAFETY"
+            android:textColor="@color/text_tertiary"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:useDefaultMargins="false">
+
+            <Button
+                android:id="@+id/btnTransportMode"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_columnWeight="1"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="12dp"
+                android:text="@string/transport_mode"
+                android:textSize="16sp"
+                android:background="@drawable/btn_surface_bg"
+                app:backgroundTint="@null"
+                android:textColor="@color/text_primary" />
+
+            <Button
+                android:id="@+id/btnWarningMode"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="12dp"
+                android:text="@string/warning_mode"
+                android:textSize="16sp"
+                android:background="@drawable/btn_surface_bg"
+                app:backgroundTint="@null"
+                android:textColor="@color/text_primary" />
+
+            <Button
+                android:id="@+id/btnAddDangerZone"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_columnWeight="1"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="12dp"
+                android:text="@string/add_danger_zone"
+                android:textSize="16sp"
+                android:background="@drawable/btn_surface_bg"
+                app:backgroundTint="@null"
+                android:textColor="@color/text_primary" />
+                
+             <Button
+                android:id="@+id/btnEmergencyContact"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_columnWeight="1"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="12dp"
+                android:text="SOS Contact"
+                android:textSize="16sp"
+                android:background="@drawable/btn_surface_bg"
+                app:backgroundTint="@null"
+                android:textColor="@color/text_primary" />
+
+        </GridLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VISION AI TOOLS"
+            android:textColor="@color/text_tertiary"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/btnDescribeScene"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="@string/describe_scene"
+            android:textSize="16sp"
+            android:background="@drawable/btn_surface_bg"
+            app:backgroundTint="@null"
+            android:textColor="@color/text_primary"
+            android:layout_marginBottom="12dp"
+            android:drawableEnd="@android:drawable/ic_menu_camera"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"/>
+
+        <Button
+            android:id="@+id/btnIdentifyMoney"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="@string/identify_money"
+            android:textSize="16sp"
+            android:background="@drawable/btn_surface_bg"
+            app:backgroundTint="@null"
+            android:textColor="@color/text_primary"
+            android:layout_marginBottom="12dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"/>
+            
+        <Button
+            android:id="@+id/btnTextReader"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="Read Text"
+            android:textSize="16sp"
+            android:background="@drawable/btn_surface_bg"
+            app:backgroundTint="@null"
+            android:textColor="@color/text_primary"
+            android:layout_marginBottom="24dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"/>
+
+        <Button
+            android:id="@+id/btnEmergency"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="@string/emergency"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_danger_bg"
+            app:backgroundTint="@null"
+            android:elevation="4dp" />
+
+    </LinearLayout>
+
+</ScrollView>
